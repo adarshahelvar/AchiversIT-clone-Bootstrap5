@@ -179,3 +179,83 @@ a {
     color: rgb(6, 6, 6);
     font-size: 14px;
 }
+
+.reviews_headding {
+    margin-top: 50px;
+}
+
+.review_cur {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-card {
+    min-width: 450px;
+    padding: 80px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.contactus {
+    background: linear-gradient(to left, #01456b ,#91d9e7)
+}
+
+.btn_cls {
+    border-radius: 5px;
+    color: #0000ff;
+    font-weight: bold;
+   
+}
+
+.bg_whyweareontop {
+    width: 100%;
+    height: 400px;
+}
+
+.Why_we_top_parent {
+    display: flex;
+    
+}
+
+.Why_we_top {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 40%;
+}
+
+.Why_we_top_h5 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 18%;
+}
+
+.Why_we_top_cards {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 8%;
+}
+
+.Why_we_top_cards_1:hover{
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1);
+    background: linear-gradient(to left, #000046, #1cb5e0)
+}
+
+.Why_we_top_cards_2:hover{
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1);
+    background: linear-gradient(to left, #f2c94c, #f2994a)
+}
+
+.Why_we_top_cards_3:hover{
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1);
+    background: linear-gradient(to left, #000046, #1cb5e0)
+}
+
+.Why_we_top_cards_4:hover{
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1);
+    background: linear-gradient(to left, #f2c94c, #f2994a)
+}

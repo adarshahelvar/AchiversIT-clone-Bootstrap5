@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>AchiversIT Clone</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+
+    <div class="navbar navbar-expand-lg navbar-dark bg-dark main-nav navClr">
+      <a class="navbar-brand" href="#">
+        <img
+          src="./images/AIT-white.jpg"
+          alt=""
+          width="280"
+          height="80"
+          class="ms-5"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="navbar-collapse mt-3 collapse hide nav_links"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle active"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              All Courses
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"
+              >Corporate Training</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Placements</a>
+          </li>
+
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              >Internship</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Reviews </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Sliders -->
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide car_slider"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators slider_btn">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./images/react_training.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/web_development.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/react_training.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+      <div class="container cont_3box">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div
+              class="cards d-flex justify-content-around p-3 shadow p-3 p-4 mb-5 bg-body rounded cards_1"
+            >
+              <div>
+                <span class="text text-lightgrey" data-position="2"
+                  >BECOME A<br />
+                  <b class="text-black"> UI DEVELOPER </b></span
+                >
+              </div>
+              <div>
+                <a href="#" class="know_more"
+                  >Know more <i class="bi bi-chevron-right bi-xs"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div
+              class="cards d-flex justify-content-around p-3 shadow p-4 mb-5 bg-body rounded cards_2"
+            >
+              <div>
+                <span class="text text-lightgrey" data-position="2"
+                  >BECOME A<br />
+                  <b class="text-black"> ANGULAR DEVELOPER </b></span
+                >
+              </div>
+              <div>
+                <a href="#" class="know_more"
+                  >Know more <i class="bi bi-chevron-right bi-xs"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div
+              class="cards d-flex justify-content-around shadow p-4 mb-5 bg-body rounded cards_3"
+            >
+              <div>
+                <span class="text text-lightgrey" data-position="2"
+                  >BECOME A<br />
+                  <b class="text-black"> REACTJS DEVELOPER </b></span
+                >
+              </div>
+              <div>
+                <a href="#" class="know_more"
+                  >Know more <i class="bi bi-chevron-right bi-xs"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TRENDING COURSES SECTION -->
+
+    <div class="container trending_courses">
+      <h2>TRENDING COURSES</h2>
+    </div>
+    <div class="col-md-12 trending-cards mB-45 d-flex trend2 container">
+      <div class="row">
+        <!-- Card-1 -->
+        <div class="col-md-3 pad-20 pad-xs-0 col-sm-4 pad-sm-10">
+          <div class="trend-card">
+            <a
+              href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+            >
+              <div class="pad-10 bg-grade-f1 text-white no-pad-B">
+                <div class="row">
+                  <div
+                    class="col-md-3 col-3 pad-15-20 pad-sm-10-15 trend-card-head"
+                  >
+                    <span
+                      ><!-- <i class="fab fa-angular font-60 font-sm-50"></i> --></span
+                    >
+                  </div>
+                  <div
+                    class="col-md-9 col-9 pad-15-20 pad-sm-10-15 trend_header"
+                  >
+                    <img
+                      src="https://img.icons8.com/color/48/null/angularjs.png"
+                      width="60px"
+                      height="60px"
+                    />
+                    <h5>
+                      <strong
+                        >ANGULAR<br /><span>DEVELOPMENT</span><br /><span
+                          >COURSE</span
+                        ></strong
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-n bradius-0">
+                <div class="card-body pad-15">
+                  <h7 class="text-black justify text-ellipsis fs_text">
+                    Angular is popular for making dynamic applications and its
+                    information official and reliance infusion includes
+                    altogether lesse...
+                  </h7>
+                </div>
+                <div class="card-footer bg-white">
+                  <div class="trend-card-reviews text-black">
+                    <h6><i>Reviews</i></h6>
+                    <span class="review-icons text-yellow">
+                      <i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i></span
+                    ><span> 5.0 </span><span> (257)</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center">
+              <a
+                href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card-2 -->
+        <div class="col-md-3 pad-20 pad-xs-0 col-sm-4 pad-sm-10">
+          <div class="trend-card">
+            <a
+              href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+            >
+              <div class="pad-10 bg-grade-f2 text-white no-pad-B">
+                <div class="row">
+                  <div
+                    class="col-md-3 col-3 pad-15-20 pad-sm-10-15 trend-card-head"
+                  >
+                    <span
+                      ><!-- <i class="fab fa-angular font-60 font-sm-50"></i> --></span
+                    >
+                  </div>
+                  <div
+                    class="col-md-9 col-9 pad-15-20 pad-sm-10-15 trend_header"
+                  >
+                    <img
+                      src="https://img.icons8.com/color/48/null/react-native.png"
+                      width="60px"
+                      height="60px"
+                    />
+                    <h5>
+                      <strong
+                        >REACT<br /><span>DEVELOPMENT</span><br /><span
+                          >COURSE</span
+                        ></strong
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-n bradius-0">
+                <div class="card-body pad-15">
+                  <h7 class="fs-6">
+                    Achievers IT React JS Certification Course in Bangalore. We
+                    teach you detailed explanations of JSX, Unidirectional data
+                    flo...
+                  </h7>
+                </div>
+                <div class="card-footer bg-white">
+                  <div class="trend-card-reviews text-black">
+                    <h6><i>Reviews</i></h6>
+                    <span class="review-icons text-yellow"
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i></span
+                    ><span> 5.0 </span><span> (292)</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center">
+              <a
+                href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card-3 -->
+        <div class="col-md-3 pad-20 pad-xs-0 col-sm-4 pad-sm-10">
+          <div class="trend-card">
+            <a
+              href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+            >
+              <div class="pad-10 bg-grade-f3 text-white no-pad-B">
+                <div class="row">
+                  <div
+                    class="col-md-3 col-3 pad-15-20 pad-sm-10-15 trend-card-head"
+                  >
+                    <span
+                      ><!-- <i class="fab fa-angular font-60 font-sm-50"></i> --></span
+                    >
+                  </div>
+                  <div
+                    class="col-md-9 col-9 pad-15-20 pad-sm-10-15 trend_header"
+                  >
+                    <img
+                      src="https://img.icons8.com/cotton/64/null/security-shield.png"
+                      width="60px"
+                      height="60px"
+                    />
+                    <h5>
+                      <strong
+                        >MEAN STACK<br /><span>DEVELOPMENT</span><br /><span
+                          >COURSE</span
+                        ></strong
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-n bradius-0">
+                <div class="card-body pad-15">
+                  <h7 class="fs-6">
+                    "MEAN Stack Front To Back". In this course we will build an
+                    in depth full stack social network application using
+                    Angular, Express, Rea...
+                  </h7>
+                </div>
+                <div class="card-footer bg-white">
+                  <div class="trend-card-reviews text-black">
+                    <h6><i>Reviews</i></h6>
+                    <span class="review-icons text-yellow"
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i></span
+                    ><span> 4.5 </span><span> (196)</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center">
+              <a
+                href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card-4 -->
+        <div class="col-md-3 pad-20 pad-xs-0 col-sm-4 pad-sm-10">
+          <div class="trend-card">
+            <a
+              href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+            >
+              <div class="pad-10 bg-grade-f4 text-white no-pad-B">
+                <div class="row">
+                  <div
+                    class="col-md-3 col-3 pad-15-20 pad-sm-10-15 trend-card-head"
+                  >
+                    <span
+                      ><!-- <i class="fab fa-angular font-60 font-sm-50"></i> --></span
+                    >
+                  </div>
+                  <div
+                    class="col-md-9 col-9 pad-15-20 pad-sm-10-15 trend_header"
+                  >
+                    <img
+                      src="https://img.icons8.com/pastel-glyph/64/null/fire-element.png"
+                      width="60px"
+                      height="60px"
+                    />
+                    <h5>
+                      <strong
+                        >MERN<br /><span>DEVELOPMENT</span><br /><span
+                          >COURSE</span
+                        ></strong
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-n bradius-0">
+                <div class="card-body pad-15">
+                  <h7 class="fs-6">
+                    "MERN Stack Front To Back". In this course we will build an
+                    in depth full stack social network application using
+                    Node.js, Express, Rea...
+                  </h7>
+                </div>
+                <div class="card-footer bg-white">
+                  <div class="trend-card-reviews text-black">
+                    <h6><i>Reviews</i></h6>
+                    <span class="review-icons text-yellow"
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i></span
+                    ><span> 4.5 </span><span> (192)</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center">
+              <a
+                href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card-5 -->
+        <div class="col-md-3 pad-20 pad-xs-0 col-sm-4 pad-sm-10">
+          <div class="trend-card">
+            <a
+              href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+            >
+              <div class="pad-10 bg-grade-f5 text-white no-pad-B">
+                <div class="row">
+                  <div
+                    class="col-md-3 col-3 pad-15-20 pad-sm-10-15 trend-card-head"
+                  >
+                    <span
+                      ><!-- <i class="fab fa-angular font-60 font-sm-50"></i> --></span
+                    >
+                  </div>
+                  <div
+                    class="col-md-9 col-9 pad-15-20 pad-sm-10-15 trend_header"
+                  >
+                    <img
+                      src="https://img.icons8.com/external-kmg-design-detailed-outline-kmg-design/64/null/external-web-web-hosting-kmg-design-detailed-outline-kmg-design.png"
+                      width="60px"
+                      height="60px"
+                    />
+                    <h5>
+                      <strong
+                        >WEB<br /><span>DEVELOPMENT</span><br /><span
+                          >COURSE</span
+                        ></strong
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-n bradius-0">
+                <div class="card-body pad-15">
+                  <h7 class="fs-6">
+                    With AchieversIT’s UI development course in bangalore, you
+                    will be able to master the concepts such as CSS3, CSS,
+                    HTM...
+                  </h7>
+                </div>
+                <div class="card-footer bg-white">
+                  <div class="trend-card-reviews text-black">
+                    <h6><i>Reviews</i></h6>
+                    <span class="review-icons text-yellow"
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i></span
+                    ><span> 5.0 </span><span> (312)</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center">
+              <a
+                href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card-6 -->
+        <div class="col-md-3 pad-20 pad-xs-0 col-sm-4 pad-sm-10">
+          <div class="trend-card">
+            <a
+              href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+            >
+              <div class="pad-10 bg-grade-f6 text-white no-pad-B">
+                <div class="row">
+                  <div
+                    class="col-md-3 col-3 pad-15-20 pad-sm-10-15 trend-card-head"
+                  >
+                    <span
+                      ><!-- <i class="fab fa-angular font-60 font-sm-50"></i> --></span
+                    >
+                  </div>
+                  <div
+                    class="col-md-9 col-9 pad-15-20 pad-sm-10-15 trend_header"
+                  >
+                    <img
+                      src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/null/external-bar-chart-investment-kiranshastry-lineal-color-kiranshastry.png"
+                      width="60px"
+                      height="60px"
+                    />
+                    <h5>
+                      <strong
+                        >DIGITAL<br /><span>MARKETING</span><br /><span
+                          >COURSE</span
+                        ></strong
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-n bradius-0">
+                <div class="card-body pad-15">
+                  <h7 class="fs-6">
+                    The future for digital marketing is promising, and its scope
+                    in the upcoming future is that it may replace all other
+                    standard forms ...
+                  </h7>
+                </div>
+                <div class="card-footer bg-white">
+                  <div class="trend-card-reviews text-black">
+                    <h6><i>Reviews</i></h6>
+                    <span class="review-icons text-yellow"
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i></span
+                    ><span> 4.8 </span><span> (178)</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center">
+              <a
+                href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card-7 -->
+        <div class="col-md-3 pad-20 pad-xs-0 col-sm-4 pad-sm-10">
+          <div class="trend-card">
+            <a
+              href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+            >
+              <div class="pad-10 bg-grade-f7 text-white no-pad-B">
+                <div class="row">
+                  <div
+                    class="col-md-3 col-3 pad-15-20 pad-sm-10-15 trend-card-head"
+                  >
+                    <span
+                      ><!-- <i class="fab fa-angular font-60 font-sm-50"></i> --></span
+                    >
+                  </div>
+                  <div
+                    class="col-md-9 col-9 pad-15-20 pad-sm-10-15 trend_header"
+                  >
+                    <img
+                      src="https://img.icons8.com/color/48/null/react-native.png"
+                      width="60px"
+                      height="60px"
+                    />
+                    <h5>
+                      <strong
+                        >REACT NATIVE<br /><span>DEVELOPMENT</span><br /><span
+                          >COURSE</span
+                        ></strong
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-n bradius-0">
+                <div class="card-body pad-15">
+                  <h7 class="fs-6">
+                    Full Stack development is defined as the development of both
+                    the front end and back end sides of a web application. A
+                    full-sta...
+                  </h7>
+                </div>
+                <div class="card-footer bg-white">
+                  <div class="trend-card-reviews text-black">
+                    <h6><i>Reviews</i></h6>
+                    <span class="review-icons text-yellow"
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i></span
+                    ><span> 4.6 </span><span> (175)</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center">
+              <a
+                href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card-8 -->
+        <div class="col-md-3 pad-20 pad-xs-0 col-sm-4 pad-sm-10">
+          <div class="trend-card">
+            <a
+              href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+            >
+              <div class="pad-10 bg-grade-f8 text-white no-pad-B">
+                <div class="row">
+                  <div
+                    class="col-md-3 col-3 pad-15-20 pad-sm-10-15 trend-card-head"
+                  >
+                    <span
+                      ><!-- <i class="fab fa-angular font-60 font-sm-50"></i> --></span
+                    >
+                  </div>
+                  <div
+                    class="col-md-9 col-9 pad-15-20 pad-sm-10-15 trend_header"
+                  >
+                    <img
+                      src="https://img.icons8.com/color/48/null/ionic.png"
+                      width="60px"
+                      height="60px"
+                    />
+                    <h5>
+                      <strong
+                        >IONIC<br /><span>DEVELOPMENT</span><br /><span
+                          >COURSE</span
+                        ></strong
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-n bradius-0">
+                <div class="card-body pad-15">
+                  <h7 class="fs-6">
+                    Ionic 4 & Ionic 5 that you can immediately implement to
+                    build high quality apps. Our course covers a wide variety of
+                    topics fro...
+                  </h7>
+                </div>
+                <div class="card-footer bg-white">
+                  <div class="trend-card-reviews text-black">
+                    <h6><i>Reviews</i></h6>
+                    <span class="review-icons text-yellow"
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i></span
+                    ><span> 4.6 </span><span> (179)</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center">
+              <a
+                href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container trending_courses">
+      <h2>RECENT ADDITIONS</h2>
+    </div>
+
+    <div class="col-md-12 trending-cards mB-45 d-flex trend2 container">
+      <div class="row">
+        <!-- Card-9 -->
+        <div class="col-md-3 pad-20 pad-xs-0 col-sm-4 pad-sm-10">
+          <div class="trend-card">
+            <a
+              href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+            >
+              <div class="pad-10 bg-grade-f1 text-white no-pad-B">
+                <div class="row">
+                  <div
+                    class="col-md-3 col-3 pad-15-20 pad-sm-10-15 trend-card-head"
+                  >
+                    <span
+                      ><!-- <i class="fab fa-angular font-60 font-sm-50"></i> --></span
+                    >
+                  </div>
+                  <div
+                    class="col-md-9 col-9 pad-15-20 pad-sm-10-15 trend_header"
+                  >
+                    <span class="rec_add">
+                      <i class="fa-brands fa-uikit fa-2xl"></i>
+                    </span>
+
+                    <h5>
+                      <strong
+                        >UI<br /><span>DEVELOPMENT</span><br /><span
+                          >COURSE</span
+                        ></strong
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-n bradius-0">
+                <div class="card-body pad-15">
+                  <h7 class="text-black justify text-ellipsis fs_text">
+                    UI development course in bangalore, you will be able to
+                    master the concepts such as CSS3, CSS, HTML, JavaScript,
+                    Bootstra...
+                  </h7>
+                </div>
+                <div class="card-footer bg-white">
+                  <div class="trend-card-reviews text-black">
+                    <h6><i>Reviews</i></h6>
+                    <span class="review-icons text-yellow">
+                      <i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i></span
+                    ><span> 4.6 </span><span> (192)</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center">
+              <a
+                href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card-10 -->
+        <div class="col-md-3 pad-20 pad-xs-0 col-sm-4 pad-sm-10">
+          <div class="trend-card">
+            <a
+              href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+            >
+              <div class="pad-10 bg-grade-f2 text-white no-pad-B">
+                <div class="row">
+                  <div
+                    class="col-md-3 col-3 pad-15-20 pad-sm-10-15 trend-card-head"
+                  >
+                    <span
+                      ><!-- <i class="fab fa-angular font-60 font-sm-50"></i> --></span
+                    >
+                  </div>
+                  <div
+                    class="col-md-9 col-9 pad-15-20 pad-sm-10-15 trend_header"
+                  >
+                    <span class="rec_add">
+                      <i class="fa-brands fa-vuejs fa-2xl"></i>
+                    </span>
+                    <h5>
+                      <strong
+                        >VUE<br /><span>DEVELOPMENT</span><br /><span
+                          >COURSE</span
+                        ></strong
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-n bradius-0">
+                <div class="card-body pad-15">
+                  <h7 class="fs-6">
+                    VueJs framework that is gaining a reputation as being a
+                    lightweight alternative to different framework and libraries
+                    Vuejs is ...
+                  </h7>
+                </div>
+                <div class="card-footer bg-white">
+                  <div class="trend-card-reviews text-black">
+                    <h6><i>Reviews</i></h6>
+                    <span class="review-icons text-yellow"
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i></span
+                    ><span> 4.3 </span><span> (146)</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center">
+              <a
+                href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card-11 -->
+        <div class="col-md-3 pad-20 pad-xs-0 col-sm-4 pad-sm-10">
+          <div class="trend-card">
+            <a
+              href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+            >
+              <div class="pad-10 bg-grade-f3 text-white no-pad-B">
+                <div class="row">
+                  <div
+                    class="col-md-3 col-3 pad-15-20 pad-sm-10-15 trend-card-head"
+                  >
+                    <span
+                      ><!-- <i class="fab fa-angular font-60 font-sm-50"></i> --></span
+                    >
+                  </div>
+                  <div
+                    class="col-md-9 col-9 pad-15-20 pad-sm-10-15 trend_header"
+                  >
+                    <span class="rec_add">
+                      <i class="fa-brands fa-wordpress fa-2xl"></i>
+                    </span>
+                    <h5>
+                      <strong
+                        >WORDPRESS<br /><span>DEVELOPMENT</span><br /><span
+                          >COURSE</span
+                        ></strong
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-n bradius-0">
+                <div class="card-body pad-15">
+                  <h7 class="fs-6">
+                    WordPress Certification Training Course in Bangalore is one
+                    of the best training programs by well-experienced softwr...
+                  </h7>
+                </div>
+                <div class="card-footer bg-white">
+                  <div class="trend-card-reviews text-black">
+                    <h6><i>Reviews</i></h6>
+                    <span class="review-icons text-yellow"
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i></span
+                    ><span> 4.6 </span><span> (184)</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center">
+              <a
+                href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card-12 -->
+        <div class="col-md-3 pad-20 pad-xs-0 col-sm-4 pad-sm-10">
+          <div class="trend-card">
+            <a
+              href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+            >
+              <div class="pad-10 bg-grade-f4 text-white no-pad-B">
+                <div class="row">
+                  <div
+                    class="col-md-3 col-3 pad-15-20 pad-sm-10-15 trend-card-head"
+                  >
+                    <span
+                      ><!-- <i class="fab fa-angular font-60 font-sm-50"></i> --></span
+                    >
+                  </div>
+                  <div
+                    class="col-md-9 col-9 pad-15-20 pad-sm-10-15 trend_header"
+                  >
+                    <span class="rec_add">
+                      <i class="fa-brands fa-python fa-2xl"></i>
+                    </span>
+                    <h5>
+                      <strong
+                        >PYTHON<br /><span>DEVELOPMENT</span><br /><span
+                          >COURSE</span
+                        ></strong
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-n bradius-0">
+                <div class="card-body pad-15">
+                  <h7 class="fs-6">
+                    Big data, Machine Learning and Data Science using Python
+                    programming certification course authorize every one to
+                    study dat...
+                  </h7>
+                </div>
+                <div class="card-footer bg-white">
+                  <div class="trend-card-reviews text-black">
+                    <h6><i>Reviews</i></h6>
+                    <span class="review-icons text-yellow"
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i></span
+                    ><span> 4.8 </span><span> (237)</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="text-center">
+              <a
+                href="https://www.achieversit.com/angular-training-course-institute-in-bangalore"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container top_cat">
+      <h2>Discover Top Categories</h2>
+      <div class="container">
+        <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3 p-4 top_cat_parent">
+          <div class="col p-4 top_cat_icon">
+            <div class="p-4 top_cat_icon_parent">
+              <i class="fa-brands fa-dev fa-4x" style="color: #d3b23c"></i>
+              <h6 class="top_cat_icon_text">DevOps</h6>
+            </div>
+          </div>
+          <div class="col top_cat_icon">
+            <div class="p-4 top_cat_icon_parent">
+              <i
+                class="fa-solid fa-laptop-code fa-4x"
+                style="color: #d099db"
+              ></i>
+              <h6 class="top_cat_icon_text">Front-End</h6>
+            </div>
+          </div>
+          <div class="col top_cat_icon">
+            <div class="p-4 top_cat_icon_parent">
+              <i class="fa-solid fa-mobile-screen-button fa-4x" style="color: #49cddf;"></i>
+              <h6 class="top_cat_icon_text">Mobile App Dev</h6>
+            </div>
+          </div>
+          <div class="col top_cat_icon">
+            <div class="p-4 top_cat_icon_parent">
+              <i class="fa-solid fa-filter-circle-dollar fa-4x" style="color: #7292ca;"></i>
+              <h6 class="top_cat_icon_text">Digital Marketing</h6>
+            </div>
+          </div>
+          <div class="col top_cat_icon">
+            <div class="p-4 top_cat_icon_parent">
+              <i class="fa-regular fa-file-code fa-4x" style="color: #dbde2c;"></i>
+              <h6 class="top_cat_icon_text">Program & FrameWorks</h6>
+            </div>
+          </div>
+          <div class="col top_cat_icon">
+            <div class="p-4 top_cat_icon_parent">
+              <i class="fa-solid fa-database fa-4x" style="color: #7ba9e5;"></i>
+              <h6 class="top_cat_icon_text">Data Types</h6>
+            </div>
+          </div>
+          <div class="col top_cat_icon">
+            <div class="p-4 top_cat_icon_parent">
+              <i class="fa-solid fa-chalkboard-user fa-4x" style="color: #6fc875;"></i>
+              <h6 class="top_cat_icon_text">Software Testing</h6>
+            </div>
+          </div>
+          <div class="col top_cat_icon">
+            <div class="p-4 top_cat_icon_parent">
+              <i class="fa-brands fa-jsfiddle fa-4x" style="color: #b64949;"></i>
+              <h6 class="top_cat_icon_text">Clous Computing</h6>
+            </div>
+          </div>
+          <div class="col top_cat_icon">
+            <div class="p-4 top_cat_icon_parent">
+              <i class="fa-solid fa-mask fa-4x" style="color: #8299bf;"></i>
+              <h6 class="top_cat_icon_text">Cyber Security</h6>
+            </div>
+          </div>
+          <div class="col top_cat_icon">
+            <div class="p-4 top_cat_icon_parent">
+              <i class="fa-solid fa-mobile-screen-button fa-4x" style="color: #df4949;"></i>
+              <h6 class="top_cat_icon_text">Artificial Intelligence</h6>
+            </div>
+          </div>
+          <div class="col top_cat_icon">
+            <div class="p-4 top_cat_icon_parent">
+              <i class="fa-brands fa-python fa-4x" style="color: #6bce64;"></i>
+              <h6 class="top_cat_icon_text">Python</h6>
+            </div>
+          </div>
+          <div class="col top_cat_icon">
+            <div class="p-4 top_cat_icon_parent">
+              <i class="fa-brands fa-codepen fa-4x" style="color: #9162c0;"></i>
+              <h6 class="top_cat_icon_text">Big Data</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
